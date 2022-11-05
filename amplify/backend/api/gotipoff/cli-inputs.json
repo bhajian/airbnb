@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "gotipoff",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/behnam.hajian/workspace/airbnb/amplify/backend/api/gotipoff/schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-01-11T03:39:53.175Z",
+      "keyDescription": "public"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authgotipoffd9654dbf"
+      }
+    ]
+  }
+}
